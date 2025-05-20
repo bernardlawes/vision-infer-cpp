@@ -6,7 +6,7 @@
 ```markdown
 # ⚡ Vision Infer (C++)
 
-C++-based inference engine for real-time object detection using ONNX Runtime or OpenCV DNN. This repo consumes models exported from `vision-train-py` and uses shared logic from `vision-shared-utils`.
+C++-based inference engine for real-time object detection using ONNX Runtime or OpenCV DNN. This repo consumes models exported from `vision-train-py` and uses shared logic from `vision-common`.
 
 ---
 
@@ -44,4 +44,4 @@ Fast ONNX inference via ONNX Runtime or OpenCV DNN
 
 Easily configurable input size, normalization, and labels
 
-Uses shared model meta/config from vision-shared-utils
+Uses shared model meta/config from vision-common
